@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <ImageView
+       android:id="@+id/imageview"
+       android:layout_width="300dp"
+       android:layout_height="350dp"
+        android:scaleType="centerCrop"
+       android:layout_gravity="center_horizontal"
+       android:layout_marginTop="16dp"
+       />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Text will be Shown here!"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+  <Button
+      android:id="@+id/snap_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="16dp"
+      android:text="SNAP"/>
+
+<Button
+    android:id="@+id/detect_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="DETECT"
+    android:layout_marginLeft="98dp"
+    android:layout_marginRight="16dp"/>
+
+
+</LinearLayout>
+        </LinearLayout>
+
+
+
+</ScrollView>
